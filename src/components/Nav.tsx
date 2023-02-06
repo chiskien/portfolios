@@ -66,16 +66,34 @@ export function Nav() {
                         </ul>
                         <div className="nav-footer">
                             <div className="nav-footer-location" style={{
-                                bottom: navOpen ? "0" : "-20px"
+                                bottom: navOpen ? "0" : "-20px",
+                                opacity: navOpen ? "1" : "0",
+                                transitionDelay: navOpen ? "1.2s" : "0s"
                             }}>
                                 <span>Hanoi, Viet Nam</span>
                             </div>
                             <div className="nav-footer-social-media">
                                 <ul>
-                                    <li><a href="">Github</a></li>
-                                    <li><a href="">Linkedin</a></li>
-                                    <li><a href="">Facebook</a></li>
-                                    <li><a href="">Instagrams</a></li>
+                                    <li><a href="" style={{
+                                        bottom: navOpen ? "0" : "-20px",
+                                        opacity: navOpen ? "1" : "0",
+                                        transitionDelay: navOpen ? "1.1s" : "0s"
+                                    }}>Github</a></li>
+                                    <li><a href="" style={{
+                                        bottom: navOpen ? "0" : "-20px",
+                                        opacity: navOpen ? "1" : "0",
+                                        transitionDelay: navOpen ? "1.2s" : "0s"
+                                    }}>Linkedin</a></li>
+                                    <li><a href="" style={{
+                                        bottom: navOpen ? "0" : "-20px",
+                                        opacity: navOpen ? "1" : "0",
+                                        transitionDelay: navOpen ? "1.3s" : "0s"
+                                    }}>Facebook</a></li>
+                                    <li><a href="" style={{
+                                        bottom: navOpen ? "0" : "-20px",
+                                        opacity: navOpen ? "1" : "0",
+                                        transitionDelay: navOpen ? "1.4s" : "0s"
+                                    }} >Instagram</a></li>
                                 </ul>
                             </div>
                         </div>
