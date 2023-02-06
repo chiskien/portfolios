@@ -24,24 +24,50 @@ export function Nav() {
                     }}>
                         <ul className="nav-links">
                             <li className="nav-item">
-                                <a href="/home">Home</a>
+                                <a href="/home"
+                                   onClick={() => setNavOpen(!navOpen)}
+                                   style={{
+                                       top: navOpen ? "0" : "120px",
+                                       transitionDelay: navOpen ? "0.8s" : "0s"
+                                   }}
+                                >Home</a>
                                 <div className="nav-item-wrapper"></div>
                             </li>
                             <li className="nav-item">
-                                <a href="/projects">Projects</a>
+                                <a href="/projects"
+                                   onClick={() => setNavOpen(!navOpen)}
+                                   style={{
+                                       top: navOpen ? "0" : "120px",
+                                       transitionDelay: navOpen ? "0.8s" : "0s"
+                                   }}
+                                >Projects</a>
                                 <div className="nav-item-wrapper"></div>
                             </li>
                             <li className="nav-item">
-                                <a href="/about">About</a>
+                                <a href="/about"
+                                   onClick={() => setNavOpen(!navOpen)}
+                                   style={{
+                                       top: navOpen ? "0" : "120px",
+                                       transitionDelay: navOpen ? "0.8s" : "0s"
+                                   }}
+                                >About</a>
                                 <div className="nav-item-wrapper"></div>
                             </li>
                             <li className="nav-item">
-                                <a href="/contact">Contact</a>
+                                <a href="/contact"
+                                   onClick={() => setNavOpen(!navOpen)}
+                                   style={{
+                                       top: navOpen ? "0" : "120px",
+                                       transitionDelay: navOpen ? "0.8s" : "0s"
+                                   }}
+                                >Contact</a>
                                 <div className="nav-item-wrapper"></div>
                             </li>
                         </ul>
                         <div className="nav-footer">
-                            <div className="nav-footer-location">
+                            <div className="nav-footer-location" style={{
+                                bottom: navOpen ? "0" : "-20px"
+                            }}>
                                 <span>Hanoi, Viet Nam</span>
                             </div>
                             <div className="nav-footer-social-media">
