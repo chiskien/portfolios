@@ -1,6 +1,5 @@
-// @ts-ignore
-export function Slogan({text}) {
+export function Slogan(props: { text: string }) {
     return (
-        <h1>{text}</h1>
+        <h1>{props.text}</h1>
     )
 }
