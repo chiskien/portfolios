@@ -25,19 +25,19 @@ export function Nav() {
                     }}>
                         <ul className="nav-links">
                             <li className="nav-item">
-                                <Link to={"/"}>Home</Link>
+                                <a href="/home">Home</a>
                                 <div className="nav-item-wrapper"></div>
                             </li>
                             <li className="nav-item">
-                                <Link to={"/projects"}>Projects</Link>
+                                <a href="/projects">Projects</a>
                                 <div className="nav-item-wrapper"></div>
                             </li>
                             <li className="nav-item">
-                                <Link to={"/about"}>About</Link>
+                                <a href="/about">About</a>
                                 <div className="nav-item-wrapper"></div>
                             </li>
-                            <li className="nav-item"><
-                                Link to={"/contact"}>Contact</Link>
+                            <li className="nav-item">
+                                <a href="/contact">Contact</a>
                                 <div className="nav-item-wrapper"></div>
                             </li>
                         </ul>
