@@ -62,7 +62,7 @@
   margin: 0 auto;
   position: absolute;
   display: block;
-  width: 24px;
+  width: 27px;
   height: 1px;
   border-radius: 10px;
   background: #fff;
@@ -76,7 +76,8 @@
 .line-top {
   top: 2.2em;
 }
-.line-top .spin {
+
+.line-top.spin {
   top: 2.35em;
   transform: rotate(135deg);
   background: #ffffff;
@@ -85,7 +86,8 @@
 .line-bottom {
   bottom: 2.2em;
 }
-.line-bottom .spin {
+
+.line-bottom.spin {
   bottom: 2.35em;
   transform: rotate(225deg);
   background: #ffffff;

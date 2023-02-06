@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import "./Nav.css"
+import {Link} from "react-router-dom"
 
 export function Nav() {
     const [navOpen, setNavOpen] = useState(false);
@@ -22,6 +23,25 @@ export function Nav() {
                         top: navOpen ? "0" : "-100%",
                         transitionDelay: navOpen ? "0s" : "0s"
                     }}>
+
+                        <ul className="nav-links">
+                            <li className="nav-item">
+                                <Link to={"/"}>Home</Link>
+                                <div className="nav-item-wrapper"></div>
+                            </li>
+                            <li className="nav-item">
+                                <Link to={"/projects"}>Projects</Link>
+                                <div className="nav-item-wrapper"></div>
+                            </li>
+                            <li className="nav-item">
+                                <Link to={"/about"}>About</Link>
+                                <div className="nav-item-wrapper"></div>
+                            </li>
+                            <li className="nav-item"><
+                                Link to={"/contact"}>Contact</Link>
+                                <div className="nav-item-wrapper"></div>
+                            </li>
+                        </ul>
 
                     </div>
                 </div>
