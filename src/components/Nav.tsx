@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import "./Nav.css"
-import {Link} from "react-router-dom"
 
 export function Nav() {
     const [navOpen, setNavOpen] = useState(false);
@@ -46,7 +45,12 @@ export function Nav() {
                                 <span>Hanoi, Viet Nam</span>
                             </div>
                             <div className="nav-footer-social-media">
-
+                                <ul>
+                                    <li><a href="">Github</a></li>
+                                    <li><a href="">Linkedin</a></li>
+                                    <li><a href="">Facebook</a></li>
+                                    <li><a href="">Instagrams</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
