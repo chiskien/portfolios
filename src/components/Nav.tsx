@@ -23,7 +23,6 @@ export function Nav() {
                         top: navOpen ? "0" : "-100%",
                         transitionDelay: navOpen ? "0s" : "0s"
                     }}>
-
                         <ul className="nav-links">
                             <li className="nav-item">
                                 <Link to={"/"}>Home</Link>
@@ -42,7 +41,14 @@ export function Nav() {
                                 <div className="nav-item-wrapper"></div>
                             </li>
                         </ul>
+                        <div className="nav-footer">
+                            <div className="nav-footer-location">
+                                <span>Hanoi, Viet Nam</span>
+                            </div>
+                            <div className="nav-footer-social-media">
 
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
